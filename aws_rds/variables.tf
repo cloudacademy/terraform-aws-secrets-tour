@@ -2,7 +2,7 @@ variable "allocated_storage" {
   description = "The amount of storage to allocate"
   type        = number
   default     = 5
-  
+
 }
 
 variable "engine" {
@@ -26,5 +26,5 @@ variable "instance_class" {
 variable "secret_name" {
   description = "The name of the secret to create"
   type        = string
-  default     = "lab/mysql/login"
+  default     = "LabSecret"
 }
